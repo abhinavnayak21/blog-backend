@@ -4,7 +4,7 @@ const { isEmpty } = require("../common/common");
 const jsonwebtoken = require("jsonwebtoken");
 
 cloudinary.config({
-  cloud_name: "abhi-jain",
+  cloud_name: "abhinav-nayak",
   api_key: process.env.APIKEY,
   api_secret: process.env.APISECRET,
 });
