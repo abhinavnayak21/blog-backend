@@ -20,10 +20,6 @@ app.use((req, res, next) => {
   res.header("Access-Control-Allow-Headers", "Content-Type, Authorization"); // Allow specific headers
   next();
 });
-<<<<<<< HEAD
-=======
-
->>>>>>> 254198d4bea5388f17f71e8f97ecf916d6cc73f4
 
 app.use("/comment", commentRoutes);
 app.use("/blog", blogRoutes);
